@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Welcome to the CSG 3.0 API Landing Page
   version: 1.0.0
-  description: "Click the button on the top right of the page to find your desired CSG 3.0 APIs\nYou can also see example of how to navigate yourself through the API pages."
+  description: "Click the button on the top right of the page to find your desired CSG 3.0 APIs. You can also learn how to navigate yourself through the API pages here."
 paths:
   /todos:
     get:
@@ -30,7 +30,6 @@ paths:
         *Markdown is supported in descriptions. Add information here for users to get accustomed to endpoints*
       parameters:
         - $ref: '#/components/parameters/limit'
-      security: []
     post:
       summary: Create Todo
       operationId: post-todos
@@ -58,8 +57,6 @@ paths:
             schema:
               $ref: '#/components/schemas/Todos'
         description: Name of the Todo
-      security:
-        - API Key: []
   '/todos/{id}':
     get:
       summary: Get Todo
