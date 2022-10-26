@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Find your APIs
+  title: Welcome to the CSG 3.0 API Landing Page
   version: 1.0.0
   description: "Click the button on the top right of the page to find your desired CSG 3.0 APIs"
 paths:
