@@ -3,19 +3,6 @@ info:
   title: The APIs shall display here
   version: 1.0.0
   description: "Click the button on the top right of the page to find your desired CSG 3.0 APIs"
-  contact:
-    name: Stoplight Support
-    email: support@stoplight.io
-    url: 'https://www.stoplight.io'
-  license:
-    name: MIT
-    url: 'https://spdx.org/licenses/MIT'
-  termsOfService: 'https://stoplight.io/terms/'
-servers:
-  - url: 'https://todos.stoplight.io'
-    description: Production
-  - description: Sandbox
-    url: 'https://todos-sandbox.stoplight.io'
 paths:
   /todos:
     get:
